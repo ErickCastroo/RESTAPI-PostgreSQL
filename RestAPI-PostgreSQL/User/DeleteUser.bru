@@ -1,0 +1,19 @@
+meta {
+  name: DeleteUser
+  type: http
+  seq: 4
+}
+
+delete {
+  url: http://localhost:3000/usuario/29
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nombre":"Erick Castro",
+    "correo":"miguelito@gmail.com",
+    "contraseña":"1234"
+  }
+}

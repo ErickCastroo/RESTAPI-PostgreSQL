@@ -1,0 +1,19 @@
+meta {
+  name: PutUser
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:3000/usuario/3
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nombre" : "uwsadu",
+    "correo" : "jsansjnd@gmail.com",
+    "password": " q2w12323"  
+  }
+}
